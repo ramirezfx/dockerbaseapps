@@ -1,3 +1,4 @@
+sudo apt-get install git
 git clone https://github.com/ramirezfx/firefox-docker.git
 git clone https://github.com/ramirezfx/filezilla-docker.git
 git clone https://github.com/ramirezfx/gimp-docker.git
