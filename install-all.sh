@@ -8,15 +8,15 @@ git clone https://github.com/ramirezfx/thunderbird-docker.git
 
 sh install-docker.sh
 sh install-docker.sh
-cd filezilla
+cd filezilla-docker
 sh install.sh
-cd ../firefox
+cd ../firefox-docker
 sh install.sh
-cd ../gimp
+cd ../gimp-docker
 sh install.sh
-cd ../kmymoney
+cd ../kmymoney-docker
 sh install.sh
-cd ../nomachine
+cd ../nomachine-docker
 sh install.sh
-cd ../tunderbird
+cd ../tunderbird-docker
 sh install.sh
