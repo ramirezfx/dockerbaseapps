@@ -7,9 +7,16 @@ git clone https://github.com/ramirezfx/nomachine-docker.git
 git clone https://github.com/ramirezfx/thunderbird-docker.git
 
 sh install-docker.sh
-sh filezilla-docker/install.sh
-sh firefox-docker/install.sh
-sh gimp-docker/install.sh
-sh kmymoney-docker/install.sh
-sh nomachine-docker/install.sh
-sh thunderbird-docker/install.sh
+sh install-docker.sh
+cd filezilla
+sh install.sh
+cd ../firefox
+sh install.sh
+cd ../gimp
+sh install.sh
+cd ../kmymoney
+sh install.sh
+cd ../nomachine
+sh install.sh
+cd ../tunderbird
+sh install.sh
